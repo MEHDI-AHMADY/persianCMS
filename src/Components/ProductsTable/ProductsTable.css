@@ -1,0 +1,86 @@
+.products-table {
+    margin-top: 30px;
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.products-table-heading-tr {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px 0 460px;
+}
+
+.products-table-heading-tr th {
+    padding: 20px;
+}
+
+.products-table-tr {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.products-table-tr td {
+    display: flex;
+    align-items: center;
+    padding: 20px ;
+}
+
+.products-table-btn {
+    padding: 8px 20px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--blue);
+    color: var(--white);
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.products-table-img{
+    width: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.shared-close__icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* START EDIT MODAL CHILDREN STYLES */
+.edit-modal-form {
+    position: relative;
+}
+
+.edit-products-form-group {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    background-color: #f4f4f4;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.edit-product-input{
+    outline: none;
+    border: none;
+    background-color: unset;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 8px 10px;
+}
+/* FINISH EDIT MODAL CHILDREN STYLES */
+
+.custom-failed-bg {
+    background-color: rgb(249, 114, 114) !important;
+    color: white !important;
+}

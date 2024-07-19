@@ -1,0 +1,21 @@
+.details-modal {
+    padding: 30px;
+    background-color: var(--white);
+    font-size: 1.3rem;
+    position: relative;
+}
+
+.cms-table {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: var(--white);
+}
+
+.cms-table tr {
+    text-align: center;
+}
+
+.cms-table th , .cms-table td {
+    padding: 20px;
+}

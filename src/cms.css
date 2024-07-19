@@ -1,0 +1,70 @@
+.modal-parent {
+  position: fixed;
+  z-index: 2;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: all ease-in-out 300ms;
+  overflow-y: scroll;
+}
+
+.modal-parent::-webkit-scrollbar {
+  width: 10px;
+}
+
+.modal-parent::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.modal-parent::-webkit-scrollbar-thumb {
+  background: var(--blue);
+  border-radius: 10px;
+}
+
+
+.modal-parent.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.cms-main {
+  margin-top: 60px;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.cms-title {
+  font-size: 2rem;
+}
+
+.cms-table {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: var(--white);
+}
+
+.cms-table tr {
+  text-align: center;
+}
+
+.cms-table th,
+.cms-table td {
+  padding: 20px;
+}
+
+.cms-table button {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 8px 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin: 0 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.edit-user-info-input-group {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 0 20px;
+    margin: 10px;
+  }
+  
+  .edit-user-info-input {
+    outline: none;
+    border: none;
+    background-color: unset;
+    padding: 8px 10px;
+    font-size: 1.1rem;
+    width: 100%;
+  }
+
+  .error {
+    display: block;
+    background-color: var(--blue);
+    padding: 6px;
+    color: var(--white);
+    border-radius: 5px;
+    margin: 6px 0;
+  }
+  
